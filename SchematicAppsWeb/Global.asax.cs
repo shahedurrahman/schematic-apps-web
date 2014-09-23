@@ -11,6 +11,7 @@ namespace SchematicAppsWeb
     {
         protected void Application_Start()
         {
+            // test comment
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
         }
